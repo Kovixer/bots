@@ -2,6 +2,11 @@
 /**
  * Полезный чат-бот c отчетами для bitrix24
  */
+
+
+define('CLIENT_ID', 'local.65ca0aad9ac7e0.70502997');
+define('CLIENT_SECRET', 'TfD6HuNgVb3BAKhXjnmrw3NcvnvXpfYsyqj0UmJvx2wl2Ll2jv');
+
 $appsConfig     = array();
 $configFileName = '/config_' . trim(str_replace('.', '_', $_REQUEST['auth']['domain'])) . '.php';
 if (file_exists(__DIR__ . $configFileName)) {
