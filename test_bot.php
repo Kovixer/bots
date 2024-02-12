@@ -4,8 +4,8 @@
  */
 
 
-define('CLIENT_ID', 'local.65ca0aad9ac7e0.70502997');
-define('CLIENT_SECRET', 'TfD6HuNgVb3BAKhXjnmrw3NcvnvXpfYsyqj0UmJvx2wl2Ll2jv');
+define('CLIENT_ID', 'xp02wbdwkvgi2crsnpmn9w3x68gqggir');
+define('CLIENT_SECRET', '5kp0q0xtuxvftj6n');
 
 $appsConfig     = array();
 $configFileName = '/config_' . trim(str_replace('.', '_', $_REQUEST['auth']['domain'])) . '.php';
